@@ -5,7 +5,7 @@
     <string name="name">Name</string>
     <string name="regcontactno">Mobile Number</string>
     <string name="regemailid">Email-ID</string>
-    <string name="regcollege">College Name</string>
+    <string name="regcollege">Branch Name</string>
     <string name="regusername">Username</string>
     <string name="nextbuttonreg">Next</string>
     <string name="action_settings">Settings</string>

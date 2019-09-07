@@ -65,7 +65,7 @@ public class RegistrationActivity extends AppCompatActivity {
         mRef.child("Name").setValue(name.getText().toString());
         mRef.child("Mobile Number").setValue(mobile.getText().toString());
         mRef.child("Mail ID").setValue(txtEmailAddress.getText().toString());
-        mRef.child("College Name").setValue(clgname.getText().toString());
+        mRef.child("Branch Name").setValue(clgname.getText().toString());
         mRef.child("User Name").setValue(username.getText().toString());
         mRef.child("Password").setValue(txtPassword.getText().toString());
 
