@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#fff">
+
+
+
+    <EditText
+        android:id="@+id/textEmailLogin"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="USERNAME"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_personlogin"
+        android:background="@drawable/edit_round"
+        android:inputType="textEmailAddress"
+        android:textColor="#ffff"
+
+        />
+
+    <EditText
+        android:id="@+id/textPasswordLogin"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textEmailLogin"
+        android:layout_alignStart="@+id/textEmailLogin"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_locklogin"
+        android:paddingLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <CheckBox
+        android:layout_width="320dp"
+        android:layout_height="20dp"
+        android:id="@+id/checkbox"
+        android:layout_below="@id/textPasswordLogin"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Remember Me"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:buttonTint="#000"
+        android:textColor="#000"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="205dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="100dp"
+        android:background='@drawable/mybutton'
+        android:onClick="btnUserLogin_Click"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="100dp"
+        android:background='@drawable/greenbutton'
+        android:onClick="btnNewUser"
+        android:padding="10dp"
+        android:text="Register"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+
+
+</RelativeLayout>

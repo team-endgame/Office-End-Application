@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="#ffff">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_personlogin"
+        android:background="@drawable/edit_round"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        android:hint="@string/name"/>
+
+    <EditText
+        android:id="@+id/Conactnum"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_contact_phone"
+        android:textColor="#ffff"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"
+        android:hint="@string/regcontactno"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/textEmailLogin"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/Conactnum"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"
+        android:hint="@string/regemailid"
+        android:drawableLeft="@drawable/ic_email"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/College"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/textEmailLogin"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"
+        android:hint="@string/regcollege"
+        android:drawableLeft="@drawable/ic_school"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:textColor="#ffff"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/College"
+        android:layout_marginTop="20dp"
+        android:hint="@string/regusername"
+        android:drawableLeft="@drawable/ic_personlogin"
+        />
+
+    <EditText
+        android:id="@+id/textPasswordLogin"
+        android:layout_below="@+id/Username"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:textColor="#ffff"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_locklogin"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenbutton"
+        android:layout_below="@id/textPasswordLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/nextbuttonreg"
+        android:onClick="btnRegistration"
+        />
+
+
+
+
+
+</RelativeLayout>

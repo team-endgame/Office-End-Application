@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerGrievances">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="MOBILE NUMBER"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/mobileFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/mobile"
+                android:textColor="#424242"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Name"
+                android:layout_below="@+id/mobileFire"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/nameFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/Name"
+                android:textColor="#424242"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/Voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Voice Analysis"
+                android:layout_below="@+id/nameFire"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/voiceFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/Voice"
+                android:textColor="#424242"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/Summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Summary"
+                android:layout_below="@+id/voiceFire"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/summaryFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/Summary"
+                android:textColor="#424242"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Status"
+                android:layout_below="@+id/summaryFire"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/StatusFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/Status"
+                android:textColor="#424242"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/verify"
+                android:text="verified"
+                android:layout_below="@+id/StatusFire"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/check"
+                android:text="CHECK FOR RECORDS"
+                android:layout_below="@+id/verify"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Syndicate</string>
+    <string name="sign_in">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="name">Name</string>
+    <string name="regcontactno">Mobile Number</string>
+    <string name="regemailid">Email-ID</string>
+    <string name="regcollege">College Name</string>
+    <string name="regusername">Username</string>
+    <string name="nextbuttonreg">Next</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
